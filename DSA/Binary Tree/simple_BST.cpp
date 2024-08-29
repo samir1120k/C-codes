@@ -54,6 +54,22 @@ int main(){
     cout<<"postorder is:";
     postorder(root);
     return 0;
-
-
 }
+
+
+// }
+// #include<iostream>
+// using namespace std;
+// void printsum(int i,int n,int sum){
+//     if(i==n){
+//         sum+=i;
+//         cout<<sum;
+//         return;
+//     }
+//     sum+=i;
+//     printsum(i+1,n,sum);
+// }
+// int main(){
+//     printsum(1,5,0);
+//     return 0;
+// }
